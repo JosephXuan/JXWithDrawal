@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AE8766B3C5D74DEEFDF2E94 /* libPods-JXWithDrawal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D26300AE4DB25A5355CF947A /* libPods-JXWithDrawal.a */; };
 		B841DEF823532EF5004240A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DEF723532EF5004240A7 /* AppDelegate.m */; };
-		B841DEFB23532EF5004240A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DEFA23532EF5004240A7 /* SceneDelegate.m */; };
 		B841DEFE23532EF5004240A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DEFD23532EF5004240A7 /* ViewController.m */; };
 		B841DF0123532EF5004240A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841DEFF23532EF5004240A7 /* Main.storyboard */; };
 		B841DF0323532EF5004240A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B841DF0223532EF5004240A7 /* Assets.xcassets */; };
@@ -16,6 +16,7 @@
 		B841DF0923532EF5004240A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DF0823532EF5004240A7 /* main.m */; };
 		B841DF1323532EF6004240A7 /* JXWithDrawalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DF1223532EF6004240A7 /* JXWithDrawalTests.m */; };
 		B841DF1E23532EF6004240A7 /* JXWithDrawalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DF1D23532EF6004240A7 /* JXWithDrawalUITests.m */; };
+		B8E50F5123D4061800C3DE56 /* JXWithDrawalCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E50F5023D4061800C3DE56 /* JXWithDrawalCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		104608B446EBD3BCD4579E2E /* Pods-JXWithDrawal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXWithDrawal.release.xcconfig"; path = "Target Support Files/Pods-JXWithDrawal/Pods-JXWithDrawal.release.xcconfig"; sourceTree = "<group>"; };
 		B841DEF323532EF5004240A7 /* JXWithDrawal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXWithDrawal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841DEF623532EF5004240A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B841DEF723532EF5004240A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B841DEF923532EF5004240A7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B841DEFA23532EF5004240A7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		B841DEFC23532EF5004240A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B841DEFD23532EF5004240A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B841DF0023532EF5004240A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,10 @@
 		B841DF1923532EF6004240A7 /* JXWithDrawalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXWithDrawalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841DF1D23532EF6004240A7 /* JXWithDrawalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXWithDrawalUITests.m; sourceTree = "<group>"; };
 		B841DF1F23532EF6004240A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E50F4F23D4061800C3DE56 /* JXWithDrawalCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JXWithDrawalCtrl.h; path = ../../../../../../Documents/JXWithDrawalCtrl.h; sourceTree = "<group>"; };
+		B8E50F5023D4061800C3DE56 /* JXWithDrawalCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JXWithDrawalCtrl.m; path = ../../../../../../Documents/JXWithDrawalCtrl.m; sourceTree = "<group>"; };
+		D26300AE4DB25A5355CF947A /* libPods-JXWithDrawal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXWithDrawal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7EE36AC639D37F2A5E0697B /* Pods-JXWithDrawal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXWithDrawal.debug.xcconfig"; path = "Target Support Files/Pods-JXWithDrawal/Pods-JXWithDrawal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE8766B3C5D74DEEFDF2E94 /* libPods-JXWithDrawal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		802542A164EC0F87DAF56A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D26300AE4DB25A5355CF947A /* libPods-JXWithDrawal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B841DEEA23532EF5004240A7 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,8 @@
 				B841DF1123532EF6004240A7 /* JXWithDrawalTests */,
 				B841DF1C23532EF6004240A7 /* JXWithDrawalUITests */,
 				B841DEF423532EF5004240A7 /* Products */,
+				FF153DA1A232F735E1767486 /* Pods */,
+				802542A164EC0F87DAF56A36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +121,11 @@
 			children = (
 				B841DEF623532EF5004240A7 /* AppDelegate.h */,
 				B841DEF723532EF5004240A7 /* AppDelegate.m */,
-				B841DEF923532EF5004240A7 /* SceneDelegate.h */,
-				B841DEFA23532EF5004240A7 /* SceneDelegate.m */,
 				B841DEFC23532EF5004240A7 /* ViewController.h */,
 				B841DEFD23532EF5004240A7 /* ViewController.m */,
+				B8E50F4E23D405A500C3DE56 /* model */,
+				B8E50F4D23D405A200C3DE56 /* View */,
+				B8E50F4C23D405A000C3DE56 /* Ctrl */,
 				B841DEFF23532EF5004240A7 /* Main.storyboard */,
 				B841DF0223532EF5004240A7 /* Assets.xcassets */,
 				B841DF0423532EF5004240A7 /* LaunchScreen.storyboard */,
@@ -137,6 +153,38 @@
 			path = JXWithDrawalUITests;
 			sourceTree = "<group>";
 		};
+		B8E50F4C23D405A000C3DE56 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50F4F23D4061800C3DE56 /* JXWithDrawalCtrl.h */,
+				B8E50F5023D4061800C3DE56 /* JXWithDrawalCtrl.m */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		B8E50F4D23D405A200C3DE56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8E50F4E23D405A500C3DE56 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FF153DA1A232F735E1767486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7EE36AC639D37F2A5E0697B /* Pods-JXWithDrawal.debug.xcconfig */,
+				104608B446EBD3BCD4579E2E /* Pods-JXWithDrawal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B841DF2223532EF6004240A7 /* Build configuration list for PBXNativeTarget "JXWithDrawal" */;
 			buildPhases = (
+				ED3B8DE301F9BB9D8115B215 /* [CP] Check Pods Manifest.lock */,
 				B841DEEF23532EF5004240A7 /* Sources */,
 				B841DEF023532EF5004240A7 /* Frameworks */,
 				B841DEF123532EF5004240A7 /* Resources */,
@@ -262,6 +311,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ED3B8DE301F9BB9D8115B215 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXWithDrawal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B841DEEF23532EF5004240A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,7 +344,7 @@
 				B841DEFE23532EF5004240A7 /* ViewController.m in Sources */,
 				B841DEF823532EF5004240A7 /* AppDelegate.m in Sources */,
 				B841DF0923532EF5004240A7 /* main.m in Sources */,
-				B841DEFB23532EF5004240A7 /* SceneDelegate.m in Sources */,
+				B8E50F5123D4061800C3DE56 /* JXWithDrawalCtrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +511,7 @@
 		};
 		B841DF2323532EF6004240A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EE36AC639D37F2A5E0697B /* Pods-JXWithDrawal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +528,7 @@
 		};
 		B841DF2423532EF6004240A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104608B446EBD3BCD4579E2E /* Pods-JXWithDrawal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
